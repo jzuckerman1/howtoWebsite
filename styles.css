@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /*Removes underlines*/
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden; /* nothing floating*/
+}
+
+.header {
+    font-size: large;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header li {
+    display: inline-block;
+    border-style: none none solid none;
+    margin-left: 6vh; /* add spacing between items */
+}
+
+h1 {
+    padding-bottom: 10vh;
+}
+
+h2 {
+    padding-bottom: 2vh;
+}
+
+p {
+    padding-bottom: 2vh;
+}
